@@ -3,6 +3,13 @@
 
 This document uses a User Form, but you can run the module without it.
 
+## Sub's
+- Splitter: Called with a QuickAccess button from the Word interface. It brings up the user interface
+- CountPages: The user interface has a Label that is updated with the number of pages in the document.
+- PasteWithoutErrors: Takes care of an error Copying and Pasting occasionally create an error because VBA is faster than the ability to paste.
+- DeleteBlankPages: takes care of the occasional blank page at the end of a Split document
+- SplitIntoPages: This is the main program.
+
 Here's the code for the module:
 ```VB.net
     Option Explicit
