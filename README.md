@@ -9,7 +9,7 @@ Public Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal Milliseconds As LongPtr)
 
 
 Sub Splitter()
-    '''Execute program'''
+    ''Execute program''
     
     UserForm1.Show vbModeless
     
@@ -17,7 +17,7 @@ End Sub
 
 
 Function CountPages(strFile As String) As String
-    '''Return number of pages in the document'''
+    ''Return number of pages in the document''
     
     Dim docMultiple As Document
     
@@ -36,7 +36,7 @@ End Function
 
 
 Private Function PasteWithoutErrors(wd As Document) As Boolean
-    '''Paste the text, if there're errors then return False'''
+    ''Paste the text, if there're errors then return False''
 
     Const TimeoutLimit As Integer = 6
     Dim TimeoutCounter As Integer
