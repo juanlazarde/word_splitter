@@ -4,7 +4,7 @@
 This document uses a User Form, but you can run the module without it.
 
 Here's the code for the module:
-```vba.net
+```VB.net
     Option Explicit
     Public Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal Milliseconds As LongPtr)
 
